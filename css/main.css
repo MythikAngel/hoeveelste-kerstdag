@@ -1,0 +1,29 @@
+.mainText-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mainText {
+    font-size: 2em;
+}
+
+.xmasContainer {
+    margin-top: 20%;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: rgb(46,139,87);
+    background: -webkit-linear-gradient(bottom, rgba(46,139,87,1) 0%, rgba(122,186,122,1) 54%, rgba(143,188,143,1) 100%);
+    background: -o-linear-gradient(bottom, rgba(46,139,87,1) 0%, rgba(122,186,122,1) 54%, rgba(143,188,143,1) 100%);
+    background: linear-gradient(to top, rgba(46,139,87,1) 0%, rgba(122,186,122,1) 54%, rgba(143,188,143,1) 100%);
+}
+
+/* Custom colors */
+.bg-transDark {
+    background-color: rgba(0, 0, 0, 0.3);
+}
